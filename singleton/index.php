@@ -16,12 +16,12 @@ class Singleton
      * Constructor protected
      * - Không cho khởi tạo bằng new từ bên ngoài
      */
-    protected function __construct() {}
+    private function __construct() {}
 
     /**
      * Ngăn không cho clone object
      */
-    protected function __clone() {}
+    private function __clone() {}
 
     /**
      * Ngăn không cho unserialize object
